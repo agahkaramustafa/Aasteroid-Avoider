@@ -612,3 +612,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60049784b7f766f42897d84fa0fe66fc, type: 3}
+--- !u!1001 &2921456181628975940
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637814921034569895, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564916050083527662, guid: e665ba7f7580445428a9f65d9b3082bd,
+        type: 3}
+      propertyPath: m_Name
+      value: StarField Particle System
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e665ba7f7580445428a9f65d9b3082bd, type: 3}
