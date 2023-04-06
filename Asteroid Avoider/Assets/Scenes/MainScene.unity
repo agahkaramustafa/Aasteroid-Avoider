@@ -1285,7 +1285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 727043632}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1575365111}
+        m_TargetAssemblyTypeName: GameOverHandler, Assembly-CSharp
+        m_MethodName: ContinueButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &727043632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1840,6 +1852,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c336366679f464390420af4f866858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 2690908903802918294}
+  continueButton: {fileID: 727043631}
   gameOverText: {fileID: 2017518291}
   scoreSystem: {fileID: 399803106}
   gameOverDisplay: {fileID: 424420868}
@@ -1891,7 +1905,7 @@ MonoBehaviour:
   asteroidPrefabs:
   - {fileID: 1949102943857466592, guid: 74047881e56655242ac633dced11949d, type: 3}
   - {fileID: 40400032613096658, guid: c48d5e33e0f0221438ba7d0941e20440, type: 3}
-  secondsBetweenAsteroids: 1.5
+  secondsBetweenAsteroids: 0.5
   forceRange: {x: 4, y: 6}
 --- !u!1 &2017518289
 GameObject:
@@ -2102,6 +2116,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60049784b7f766f42897d84fa0fe66fc, type: 3}
+--- !u!1 &2690908903802918294 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2690908904737410756, guid: 60049784b7f766f42897d84fa0fe66fc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2690908903802918293}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2921456181628975940
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameOverHandler : MonoBehaviour
 {
+    [SerializeField] GameObject player;
+    [SerializeField] Button continueButton;
     [SerializeField] TMP_Text gameOverText;
     [SerializeField] ScoreSystem scoreSystem;
     [SerializeField] GameObject gameOverDisplay;
@@ -28,11 +31,25 @@ public class GameOverHandler : MonoBehaviour
 
     public void ContinueButton()
     {
+        AdManager.Instance.ShowAd(this);
 
+        continueButton.interactable = false;
     }
 
     public void ReturnToMenuButton()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void ContinueGame()
+    {
+        scoreSystem.StartTimer();
+
+        player.transform.position = Vector3.zero;
+        player.SetActive(true);
+
+        asteroidSpawner.enabled = true;
+
+        gameOverDisplay.gameObject.SetActive(false);
     }
 }
